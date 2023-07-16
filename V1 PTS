@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+<title> new form </title>
+</head>
+<body>
+<form>
+<table>
+<tr>
+<td><label> Name </label></td>
+<td>:</td>
+<td><input type="text" name="Your Name"></td>
+</tr>
+<tr>
+<td><label> Identity Card No </label></td>
+<td>:</td>
+<td><input type="text" name="ID No"></td>
+</tr>
+<tr>
+<td><label> Gender </label></td>
+<td>:</td>
+<td><select><option value="Male"> Male </option>
+            <option value="Female"> Female </option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label> State </label></td>
+<td>:</td>
+<td><input type="radio" name="state" value="US"> US
+    <input type="radio" name="state" value="Canada"> Canada
+    <input type="radio" name="state" value="Non US"> Non US
+</td></tr>
+<tr>
+<td></td><td></td><td><input type="submit" value="send"></td></tr>
+</table>
+</form>
+</body>
+</html>
